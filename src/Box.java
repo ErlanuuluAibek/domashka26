@@ -1,5 +1,5 @@
 public class Box <T>{
-    private static <T> T box(){
-        return (T) new Box();
+    private static <T> Box box(){
+        return  new Box();
     }
 }
