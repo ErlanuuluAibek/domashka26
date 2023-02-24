@@ -1,5 +1,10 @@
 public class Box <T>{
-    private static <T> Box box(){
+    public static <T> Box box(){
         return  new Box();
+    }
+
+    @Override
+    public String toString() {
+        return "Box{}";
     }
 }
